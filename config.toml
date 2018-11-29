@@ -33,7 +33,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "MunifTanjim"
+holder = "Wefoe.me"
 startYear = "2017"
 suffix = ""
 
@@ -54,7 +54,7 @@ hideMainMenu = false
 enable = true
 
 [params.widgets]
-header = ["breadcrumbs"]
+# header = ["breadcrumbs"]
 homepage = ["recent_posts"]
 sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
@@ -73,9 +73,9 @@ titleSeparator = "•"
 
 [params.social]
 codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
+email = "gawasta@outlook.com"
+facebook = "Gawain.W.Gao"
+github = "wefox"
 gitlab = "MunifTanjim"
 instagram = "MunifTanjim"
 linkedin = "muniftanjim"
@@ -133,7 +133,7 @@ page = "/:slug/"
 name = "Repo"
 weight = -10
 identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+url = "https://github.com/Wefox/wefox.github.io"
 
 [blackfriday]
 hrefTargetBlank = true
