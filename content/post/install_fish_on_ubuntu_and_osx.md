@@ -4,12 +4,13 @@ date: 2018-11-28T17:44:12+08:00
 draft: false
 ---
 
-这两天因为在做项目的时候接触到了Fish这个shell，所以花了点时间在我的Ubuntu和OS X上都配置了一下。
+最近接触了Fish这个shell，总体感觉还不错，所以花了点时间在Ubuntu和OS X上都配置了一下。
 
 ### 环境：
 
-Ubuntu 18.04 LTS
+Ubuntu 18.04 LTS  
 OS X 10.11
+
 #### Ubuntu
 在ubuntu上，最简单的安装方法是通过最新的官方的PPA安装，具体如下：
 
@@ -60,7 +61,7 @@ Fish有一个叫做“Oh My Fish”的框架，可以为Fish安装主题和Packa
 
 关于这个主题的使用，可以看[这里](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#budspencer),装完这个主题后的效果
 
-<!-- ![Img](img/install_fish_1.png) -->
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_fish_1.png)
 
 ### 问题解决
 - 乱码或某些符号不显示  
