@@ -2,24 +2,22 @@
 title: "在Ubuntu上用Hugo和Github创建个人博客"
 date: 2018-11-29T16:20:02+08:00
 draft: false
+tags: ["Ubuntu", "Hugo"]
+categories: ["Computer Skill"]
 ---
 
 ## 前言
 Hugo是使用 Go 语言开发的开源静态网站生成工具，相对于Hexo，速度快是 Hugo 的一大特点，在本地修改后，它会自动渲染。
 
 ## 安装Hugo
-虽然在Ubunut上可以通过
-    sudo apt install hugo
-
-来安装，但是，强烈不推荐这样做，因为安装的版本太低，在build的时候（例如安装主题的时候）会提示很多错误。  
+虽然在Ubunut上可以通过```sudo apt install hugo```来安装，但是，强烈不推荐这样做，因为安装的版本太低，在build的时候（例如安装主题的时候）会提示很多错误。  
 
 推荐到[hugo官网下载](https://github.com/gohugoio/hugo/releases)下载符合系统的最新版本，这里我们下载hugo_xxx_Linux-64bit.deb  
 
-下载好之后进入下载的目录(xxx代表版本号，请自行替换)
-    sudo dpkg -i hugo_xxx_Linux-64bit.deb
-    sudo apt install -f
+下载好之后进入下载的目录(xxx代表版本号，请自行替换) 
 
-```<!--more-->```
+    sudo dpkg -i hugo_xxx_Linux-64bit.deb  
+    sudo apt install -f
 
 ## 创建博客
     hugo new site blog  //blog就是生成blog之后存放的文件夹
@@ -39,22 +37,21 @@ hugo会自动创建blog文件夹并生成需要的文件
 ## 在Github上部署
 ###配置信息并关联ssh
 首先，先配置Github账号信息  
-    ```
+    
     git config –global user.name “your_name”
-    ```  
-    ```
     git config –global user.email “your_email@youremail.com”
-    ```
 
 
-然后生成 SSH key 与 github 联系  
-    ```ssh-keygen -t rsa -C “your_email@youremail.com”```
+然后生成 SSH key 与 github 联系 
+
+    ssh-keygen -t rsa -C “your_email@youremail.com”
 
 your_email@youremail.com 改为你的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在根目录下生成```.ssh```文件夹，进去这个文件夹，打开```id_rsa.pub```，复制里面的内容。
 然后登录[github](www.github.com)，如果没有就注册一个账号，登录后右上角 ```头像 -> Settings —> SSH nd GPG keys —> New SSH key```。把公钥(id_rsa.pub)粘贴到 key 中，填好 title 并点击 Add SSH key
 
 关联完之后可以在终端输入  
-    ```ssh git@github.com```
+    
+    ssh git@github.com
 
 显示如下界面  
 ![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/create_blog_1.png)
@@ -67,15 +64,19 @@ Github pages 分为两种：一种是项目主页，每个项目都可以有一�
 首先，需要在Github上创建两个单独的 repo：website-hugo和xxx.github.io，新建一个 repository，创建时，只需要填写 Repository name 即可，可以顺便创建```README```文件，第二个repo的名字格式必须为user_name.github.io，其中 user_name 必须与你的```github```用户名一样，这是 github pages 的特殊命名规范。
 
 在blog根目录运行
+
     hugo
+
 后会在blog根目录生成一个public文件夹，这个文件夹就是博客的内容了，把public文件夹托管到xxx.github.io上，将blog根目录下除了public的文件托管到website-hugo上。
 
 ### 托管
 如果到这一步都顺利的话，我们可以先删除```public```文件夹(如果有这个文件夹的话)  
-    ```rm -fr public/```
+    
+    rm -fr public/
 
 然后把```public/```目录添加为```submodule```     
-    ```git init git submodule add git@github.com:XXX/xxx.github.io public```
+    
+    git init git submodule add git@github.com:XXX/xxx.github.io public
 
 添加```.gitignore```文件，文件中写```public/```，在同步```my-blog```时会忽略```public```文件夹
 接下来的工作可以借助一个```deploy.sh```脚本来完成```public/```文件夹(也就是xxx.github.io仓库)的托管

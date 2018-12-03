@@ -2,6 +2,8 @@
 title: "在Ubuntu和Mac OS X上安装Fish"
 date: 2018-11-28T17:44:12+08:00
 draft: false
+tags: ["Ubuntu", "Shell"]
+categories: ["System"]
 ---
 
 最近接触了Fish这个shell，总体感觉还不错，所以花了点时间在Ubuntu和OS X上都配置了一下。
