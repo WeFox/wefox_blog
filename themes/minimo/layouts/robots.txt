@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 Allow: /docs/
 Allow: /gossip/
-Allow: /about/ 
+Allow: /about/
 Disallow: /assets/
 
-Sitemap: http://blog.wefox.me/sitemap.xml
+Sitemap: https://blog.wefox.me/sitemap.xml

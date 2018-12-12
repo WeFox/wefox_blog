@@ -22,6 +22,7 @@ defaultContentLanguage = "en"
 
 [params.info]
 subtitle = "唯狐博客－关注人工智能机器学习深度学习"
+keywords = "唯狐,博客,wefox,WeFox,唯狐博客,AI,ML,DL,Machine Learning,Deep Learning,Artificial Intelligence"
 description = "Focus AI ML and DL"
 title404 = "Nothing's here!"
 
@@ -33,7 +34,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "Wefoe.me"
+holder = "Wefox.me"
 startYear = "2017"
 suffix = ""
 
