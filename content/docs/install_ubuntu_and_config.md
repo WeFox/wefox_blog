@@ -1,5 +1,6 @@
 ---
 title: "Ubuntu的安装及配置"
+keywords: ["WeFox", "唯狐博客", "Ubuntu", "Install", "安装", "配置"]
 date: 2018-12-11T14:26:11+08:00
 draft: false
 tags: ["Ubuntu"]

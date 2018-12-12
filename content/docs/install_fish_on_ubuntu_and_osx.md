@@ -1,5 +1,6 @@
 ---
 title: "在Ubuntu和Mac OS X上安装Fish"
+keywords: ["WeFox", "唯狐博客", "Ubuntu", "Mac", "Fish", "终端"]
 date: 2018-11-28T17:44:12+08:00
 draft: false
 tags: ["Ubuntu", "Shell"]
