@@ -32,7 +32,7 @@ OS X 10.11
 ##### 给Fish安装主题
 Fish有一个叫做“Oh My Fish”的框架，可以为Fish安装主题和Packages，要安装”Oh My Fish”，首先，请确保Ubuntu中已经安装了Ruby，如果还没安装，可以通过这条命令安装：
 
-    sudo apt-get install ruby
+    sudo apt-get install ruby git curl
 
 接着通过下面这条命令就可以轻松安装了：
 
@@ -67,16 +67,15 @@ Fish有一个叫做“Oh My Fish”的框架，可以为Fish安装主题和Packa
 
 ### 问题解决
 - 乱码或某些符号不显示  
-装完主题之后，可能会发现很多地方显示乱码或者不显示，例如左边的箭头，这需要安装Powerline的字体，可以在这里[下载](https://github.com/powerline/fonts)，下载之后解压，并运行./install.sh即可。
+装完主题之后，可能会发现很多地方显示乱码或者不显示，例如左边的箭头，这需要安装Powerline的字体，可以在这里[下载](https://github.com/powerline/fonts)，下载之后解压，并运行./install.sh就会安装字体，安装好之后只要把终端的字体设置为任意一款Powerline字体即可。
 
 - 右侧不显示命令运行的时间和Git的状态  
 budspencer主题支持Vi模式，按ESC进入Normal模式后，按Space来切换”short long none”三种模式，按#来切换前面是显示状态还是显示往Git上更新了多少行的代码。如果还是不显示，可以卸载主题:  
-    ```
+    
     omf remove budspencer
-    ```
+    
 再重新安装，如果还是不行，可以删除fish_prompt文件后重新安装主题：
-    ```
+    
     rm ~/.config/fish/functions/fish_prompt.fish
-    ```
 
 另外在Ubuntu下推荐使用tilda，在Mac下推荐使用Iterm2，祝大家使用愉快！

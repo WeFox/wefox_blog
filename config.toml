@@ -1,4 +1,4 @@
-baseURL = "http://blog.wefox.me"
+baseURL = "https://blog.wefox.me"
 title = "WeFox"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -22,7 +22,8 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Just Do It"
+subtitle = "唯狐博客－关注人工智能机器学习深度学习"
+description = "Focus AI ML and DL"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -130,8 +131,32 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
+name = "HOME"
+weight = 1
+identifier = "home"
+url = "https://blog.wefox.me"
+
+[[menu.main]]
+name = "DOCS"
+weight = 2
+identifier = "documents"
+url = "https://blog.wefox.me/docs"
+
+[[menu.main]]
+name = "GOSSIP"
+weight = 3
+identifier = "gossip"
+url = "https://blog.wefox.me/gossip"
+
+[[menu.main]]
+name = "ABOUT"
+weight = 4
+identifier = "about"
+url = "https://blog.wefox.me/about"
+
+[[menu.main]]
 name = "Repo"
-weight = -10
+weight = 10
 identifier = "repository"
 url = "https://github.com/Wefox/wefox.github.io"
 
@@ -144,3 +169,8 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

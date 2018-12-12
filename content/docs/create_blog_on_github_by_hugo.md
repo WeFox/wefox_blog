@@ -1,5 +1,5 @@
 ---
-title: "在Ubuntu上用Hugo和Github创建个人博客"
+title: "在Ubuntu上用Hugo+Github创建个人博客"
 date: 2018-11-29T16:20:02+08:00
 draft: false
 tags: ["Ubuntu", "Hugo"]
