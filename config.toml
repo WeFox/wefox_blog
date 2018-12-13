@@ -1,4 +1,4 @@
-baseURL = "https://blog.wefox.me"
+baseURL = "https://wefox.me"
 title = "WeFox"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -36,7 +36,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 prefix = ""
 holder = "Wefox.me"
 startYear = "2017"
-suffix = ""
+suffix = "All Rights Reserved."
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
@@ -86,7 +86,7 @@ google_scholar = "qc6CJjYAAAAJ"
 youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
-enable = false
+enable = true
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]

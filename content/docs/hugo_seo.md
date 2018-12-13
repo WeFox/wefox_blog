@@ -47,7 +47,7 @@ draft: false
 ## Google搜索优化
 
 #### sitemap.xml配置
-先登录[Google Search Console](https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fblog.wefox.me%2F&hl=en)，上传sitemap.xml，一般该文件会自动在hugo的根目录下生成，如果没有的话，可以自己在```layouts```或者```theme/layouts/_default```下创建一个，并输入：
+先登录[Google Search Console](https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fwefox.me%2F&hl=en)，上传sitemap.xml，一般该文件会自动在hugo的根目录下生成，如果没有的话，可以自己在```layouts```或者```theme/layouts/_default```下创建一个，并输入：
 
 	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -83,7 +83,7 @@ draft: false
 	Allow: /about/
 	Disallow: /assets/
 
-	Sitemap: https://blog.wefox.me/sitemap.xml
+	Sitemap: https://wefox.me/sitemap.xml
 
 一般hugo或者主题都会自动生成```robots.txt```，默认基本都是在根目录下。
 

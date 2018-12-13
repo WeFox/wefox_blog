@@ -1,6 +1,6 @@
 [about]
-title = ""
-description = ""
+title = "WeFox"
+description = "Love Coding Love Wife"
 logo = "/images/logo.png"
 
 [breadcrumbs]
@@ -9,7 +9,7 @@ excludeParents = ["page"]
 
 [recent_posts]
 title = ""
-length = 5
+length = 10
 excludeTypes = ["page"]
 
 [search]
@@ -17,11 +17,12 @@ title = "Search"
 
 [sidebar_menu]
 title = ""
-mirror = ""
+mirror = "main"
 
 [social_menu]
 title = ""
-platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar","youtube"]
+platforms = ["github","facebook","email","linkedin"]
+# platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar","youtube"]
 
 [taxonomy_cloud]
 title = ""

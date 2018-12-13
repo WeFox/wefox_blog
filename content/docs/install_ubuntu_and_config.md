@@ -7,7 +7,7 @@ tags: ["Ubuntu"]
 categories: ["System"]
 ---
 
-(本文会持续更新，有需要的朋友可收藏或关注我的博客https://blog.wefox.me)  
+(本文会持续更新，有需要的朋友可收藏或关注我的博客https://wefox.me)  
 
 因为经常要安装Ubuntu的原因，每次装完都要配置，备份也不方便，所以写这篇博客记录一下。
 
@@ -22,7 +22,7 @@ categories: ["System"]
 
     sudo apt install tilda
 
-即可。至于Fish的配置及效果，大家可以看[这里](https://blog.wefox.me/post/install_fish_on_ubuntu_and_osx/)。至于开机自启，直接系统里搜```startup```吧。
+即可。至于Fish的配置及效果，大家可以看[这里](https://wefox.me/post/install_fish_on_ubuntu_and_osx/)。至于开机自启，直接系统里搜```startup```吧。
 
 ## 中文输入法
 接下来肯定是中文输入法了，每次都被输入法弄的很头疼，整了半天，终于顺手了，其实安装和配置很简单，首先：

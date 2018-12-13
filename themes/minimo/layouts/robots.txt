@@ -5,4 +5,4 @@ Allow: /gossip/
 Allow: /about/
 Disallow: /assets/
 
-Sitemap: https://blog.wefox.me/sitemap.xml
+Sitemap: https://wefox.me/sitemap.xml
