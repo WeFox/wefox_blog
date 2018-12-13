@@ -97,21 +97,21 @@ dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author=
 [params.comments.staticman]
 enable = true
 apiEndpoint = "https://api.staticman.net/v2/entry"
-maxDepth = 2
+maxDepth = 5
 
 [params.comments.staticman.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "WeFox"
+repository = "wefox.github.io"
 branch = "master"
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = false
+enable = true
 issueTerm = "pathname" # pathname / url / title
 
 [params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "WeFox"
+repository = "wefox.github.io"
 
 [params.search]
 client = "" # algolia / fuse / lunr
@@ -134,25 +134,25 @@ page = "/:slug/"
 name = "HOME"
 weight = 1
 identifier = "home"
-url = "https://blog.wefox.me"
+url = "https://wefox.me"
 
 [[menu.main]]
 name = "DOCS"
 weight = 2
 identifier = "documents"
-url = "https://blog.wefox.me/docs"
+url = "https://wefox.me/docs"
 
 [[menu.main]]
 name = "GOSSIP"
 weight = 3
 identifier = "gossip"
-url = "https://blog.wefox.me/gossip"
+url = "https://wefox.me/gossip"
 
 [[menu.main]]
 name = "ABOUT"
 weight = 4
 identifier = "about"
-url = "https://blog.wefox.me/about"
+url = "https://wefox.me/about"
 
 [[menu.main]]
 name = "Repo"
