@@ -87,6 +87,7 @@ youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
 enable = true
+disqusShortname = "wefox"
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
@@ -169,6 +170,11 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+# [languages.zh]
+# lang = "zh"
+# languageName = "Chinese"
+# weight = 2
 
 [sitemap]
   changefreq = "always"
