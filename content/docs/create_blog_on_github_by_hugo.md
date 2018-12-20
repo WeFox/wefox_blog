@@ -55,7 +55,7 @@ your_email@youremail.com 改为你的邮箱，之后会要求确认路径和输�
     ssh git@github.com
 
 显示如下界面  
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/create_blog_1.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/create_blog_1.png)
 代表关联成功。
 
 ### 推送到 GitHub 上

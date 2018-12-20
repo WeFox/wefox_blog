@@ -5,7 +5,7 @@ copyright = ""
 
 theme = "minimo"
 
-disqusShortname = ""
+disqusShortname = "WeFox"
 googleAnalytics = ""
 
 Paginate = 5
@@ -79,7 +79,7 @@ facebook = "Gawain.W.Gao"
 github = "wefox"
 gitlab = "MunifTanjim"
 instagram = "MunifTanjim"
-linkedin = "muniftanjim"
+linkedin = "wei-gao-64b7a3a2/"
 twitter = "MunifTanjim"
 telegram = "MunifTanjim"
 google_scholar = "qc6CJjYAAAAJ"
@@ -87,16 +87,15 @@ youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
 enable = true
-disqusShortname = "wefox"
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
 enable = false
-scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+scriptSrc = "isso/js/embed.min.js" # "https://isso.example.com/js/embed.min.js"
+dataAttrs = "data-isso='//wefox.me/isso' data-isso-require-author='true' data-isso-lang='en' data-isso-vote='true' data-vote-levels='[-5,5,15]' src='isso/js/embed.js'" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 5
 
@@ -107,7 +106,7 @@ branch = "master"
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = true
+enable = false
 issueTerm = "pathname" # pathname / url / title
 
 [params.comments.utterances.github]
@@ -115,7 +114,7 @@ username = "WeFox"
 repository = "wefox.github.io"
 
 [params.search]
-client = "" # algolia / fuse / lunr
+client = "fuse" # algolia / fuse / lunr
 
 [params.search.algolia]
 appId = ""

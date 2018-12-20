@@ -64,7 +64,7 @@ Fish有一个叫做“Oh My Fish”的框架，可以为Fish安装主题和Packa
 
 关于这个主题的使用，可以看[这里](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#budspencer),装完这个主题后的效果
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_fish_1.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/docs/install_fish_1.png)
 
 ### 问题解决
 - 乱码或某些符号不显示  

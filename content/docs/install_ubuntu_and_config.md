@@ -22,7 +22,7 @@ categories: ["System"]
 
     sudo apt install tilda
 
-即可。至于Fish的配置及效果，大家可以看[这里](https://wefox.me/post/install_fish_on_ubuntu_and_osx/)。至于开机自启，直接系统里搜```startup```吧。
+即可。至于Fish的配置及效果，大家可以看[这里](https://wefox.me/docs/install_fish_on_ubuntu_and_osx/)。至于开机自启，直接系统里搜```startup```吧。
 
 ## 中文输入法
 接下来肯定是中文输入法了，每次都被输入法弄的很头疼，整了半天，终于顺手了，其实安装和配置很简单，首先：
@@ -31,19 +31,19 @@ categories: ["System"]
 
 安装输入法，接下来，打开```Settings```（我的Ubuntu是英文版，中文版就打开系统的“设置”，下同），里面不需要修改，**不要添加中文**，保持下图即可  
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_ubuntu_1.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/install_ubuntu_1.png)
 
 然后点击上图中的```Manage Installed Languages```，选择```fcitx```
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_ubuntu_2.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/install_ubuntu_2.png)
 
 接着点击屏幕右上角的键盘，进入下图界面添加```pinyin```
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_ubuntu_3.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/install_ubuntu_3.png)
 
 要添加```pinyin```只需点击左下角的```+```，然后取消```only show```前面的勾，直接搜索```pinyin```即可
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_ubuntu_4.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/install_ubuntu_4.png)
 
 ## 交换Caps和Ctrl
 本人的按键习惯是把Caps当Ctrl用，可以使用gnome-tweak-tool工具
@@ -52,7 +52,7 @@ categories: ["System"]
 
 装完之后按下图更改
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_ubuntu_5.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/install_ubuntu_5.png)
 
 ## 梯子
 没有梯子实在不会用电脑，因为有买[国外主机](https://bwh8.net/clientarea.php?action=products)自己架梯子，需要shadowsocks，之前没用UI版本的，着实不太方便，需要自己配置还要设置开机自启，有点麻烦，而这些功能UI版本都有而且会在任务栏有图标，方便切换，还有很多实用功能，果断使用UI版，具体下载地址在[这里](https://github.com/shadowsocks/shadowsocks-qt5/releases)，说明还有源码可以看[这里](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation)，因为下载的是AppImage格式，所以可以系统直接搜```startup```然后选择AppImage路径即可开机自启。
@@ -109,7 +109,7 @@ categories: ["System"]
 
 里就可以更改风扇转速了
 
-![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/post/img/install_ubuntu_6.png)
+![Img](https://raw.githubusercontent.com/Wefox/wefox.github.io/master/docs/img/install_ubuntu_6.png)
 
 或者
 
